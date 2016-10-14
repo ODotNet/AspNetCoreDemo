@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6447CAA1-9CEC-4C80-997A-2D4F6947E47B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{417BC06F-880E-4422-9506-EE9479C8D1CF}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreDemo", "src\AspNetCoreDemo\AspNetCoreDemo.xproj", "{45CB9A96-EA6F-46CF-B9C0-9F28E5A05C5D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreDemo.IntergrationTest", "test\AspNetCoreDemo.IntergrationTest\AspNetCoreDemo.IntergrationTest.xproj", "{685A9E37-9A48-4517-8558-1B26BBAFC13C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5AAFD930-E63A-445E-A142-A21111AE4A92}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreDemo.NpgsqlEfCoreTest", "test\AspNetCoreDemo.NpgsqlEfCoreTest\AspNetCoreDemo.NpgsqlEfCoreTest.xproj", "{B5E83CE1-CA69-4F2E-87D5-EA8F512C3378}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreDemo.MvcControllerUnitTest", "test\AspNetCoreDemo.MvcControllerUnitTest\AspNetCoreDemo.MvcControllerUnitTest.xproj", "{F463C53F-4A52-4161-94A4-C7BD9DAEEF57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45CB9A96-EA6F-46CF-B9C0-9F28E5A05C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CB9A96-EA6F-46CF-B9C0-9F28E5A05C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CB9A96-EA6F-46CF-B9C0-9F28E5A05C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CB9A96-EA6F-46CF-B9C0-9F28E5A05C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685A9E37-9A48-4517-8558-1B26BBAFC13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685A9E37-9A48-4517-8558-1B26BBAFC13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685A9E37-9A48-4517-8558-1B26BBAFC13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685A9E37-9A48-4517-8558-1B26BBAFC13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E83CE1-CA69-4F2E-87D5-EA8F512C3378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E83CE1-CA69-4F2E-87D5-EA8F512C3378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E83CE1-CA69-4F2E-87D5-EA8F512C3378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E83CE1-CA69-4F2E-87D5-EA8F512C3378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F463C53F-4A52-4161-94A4-C7BD9DAEEF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F463C53F-4A52-4161-94A4-C7BD9DAEEF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F463C53F-4A52-4161-94A4-C7BD9DAEEF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F463C53F-4A52-4161-94A4-C7BD9DAEEF57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45CB9A96-EA6F-46CF-B9C0-9F28E5A05C5D} = {6447CAA1-9CEC-4C80-997A-2D4F6947E47B}
+		{685A9E37-9A48-4517-8558-1B26BBAFC13C} = {5AAFD930-E63A-445E-A142-A21111AE4A92}
+		{B5E83CE1-CA69-4F2E-87D5-EA8F512C3378} = {5AAFD930-E63A-445E-A142-A21111AE4A92}
+		{F463C53F-4A52-4161-94A4-C7BD9DAEEF57} = {5AAFD930-E63A-445E-A142-A21111AE4A92}
+	EndGlobalSection
+EndGlobal
